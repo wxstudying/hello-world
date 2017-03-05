@@ -1,2 +1,3 @@
 # hello-world
-have a try
+
+i am A beginner
