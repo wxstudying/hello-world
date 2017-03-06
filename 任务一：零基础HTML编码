@@ -5,8 +5,6 @@
 	<title>Document</title>
 	<style>
 		body{font-size: 14px;}
-		#pic{margin-left: 48px;}
-		#pic img{display: block;margin-bottom: 16px;}
 		table thead th{font-weight:normal;}
 		#email input{margin-bottom:20px;margin-top: 10px;}
 	</style>
@@ -51,18 +49,22 @@
 	</ul>
 	<h2>图片</h2>
 	<div id='pic'>
-		<span>好看的图片</span>
-		<img src="img/n1.jpg" >
-		<span>好看的图片</span>
-		<img src="img/n1.jpg">
-		<span>好看的图片</span>
-		<img src="img/n1.jpg" >
-		<span>好看的图片</span>
-		<img src="img/n1.jpg" >
-		<span>好看的图片</span>
-		<img src="img/n1.jpg" >
-		<span>好看的图片</span>
-		<img src="img/n1.jpg" >
+		<figure>
+			<figcaption>好看的图片</figcaption>
+			<img src="img/n1.jpg" >
+		</figure>
+		<figure>
+			<figcaption>好看的图片</figcaption>
+			<img src="img/n1.jpg" >
+		</figure>
+		<figure>
+			<figcaption>好看的图片</figcaption>
+			<img src="img/n1.jpg" >
+		</figure>
+		<figure>
+			<figcaption>好看的图片</figcaption>
+			<img src="img/n1.jpg" >
+		</figure>
 	</div>
 	<h2>最后一篇文章一级标题</h2>
 	<h2>文章二级标题</h2>
