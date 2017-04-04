@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body{font-size:14px;background:#dedede;margin:0;padding:0;font-family:sans-serif;}
+		table thead th{font-weight:normal;}
+		#email input{margin-bottom:0px;margin-top: 10px;}
+		#header{height: 60px;margin-bottom: 21px;background:#333333 url(img/logo.jpg) no-repeat 20px 0;}
+		#header ul{float:right;margin-right: 20px;font-size:12px;}
+		#header ul li{color:#030303;float:left;margin-right: 25px;}
+		#header ul li a{color:#ffffff;text-decoration: none;}
+		.content{margin:20px;border:1px;border-left:1px solid #ccc;border-top:1px solid #ccc;border-right:outset;border-bottom:outset;background:#ffffff;padding:35px 20px 29px;line-height:25px;}
+		.content h2{margin-top:0px;margin-bottom:15px;}
+		.content h3{margin-bottom:8px;}
+		.content ul{list-style:none;padding-left:20px;}
+		p.indent{text-indent: 2em;line-height:2em;}
+		p{margin:0;}
+		article img{margin-top:14px;margin-bottom:11px;display:block;}
+
+		#pic h2{margin-bottom:18px;}
+		#pic figure{background:#fff;border:1px solid #cecece;width:120px;height:124px;text-align:center;}
+		#pic img{width:100px;height: 81px;}
+		#pic figcaption{width:120px;height:33px;font-size:12px;line-height:33px;}
+		#pic{padding-left:17px;}
+		
+		.last h2{font-weight:900;}
+		table{border-collapse:collapse;text-indent:5px;margin-right:10px;}
+		table th{background-color:#333333;color:#ffffff;text-align:left;}
+		th,td{width:493px;height:23px;}
+		table .table_last{width:267px;}
+		table .table_bottom{background:#cccccc;color:#2d2719;font-weight:bold;}
+		aside.content{margin-top:38px; }
+		.content_bottom{margin:0 auto;font-size:11px;}
+	
+		.block{width:100px;text-align:right;float: left;}
+		
+		
+		.sex{vertical-align:sub;}
+		 select{width:56px;height:20px;font-size:10px;padding-left:9px;text-indent:0;}
+		input.hobby{vertical-align: middle;}
+		.submit{height: 38px;background:#3355d0;border-radius: 10px;text-align: center;margin-top:12px; }
+		.submit input{color:#fffbff;background:#3355d0;border: none;font-size:15px;margin-top:8px; }
+		.copy{height: 70px; background:#000000;color:#dedce7;text-align: center; }
+		.copy span{margin-top:20px;display:inline-block;}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<nav>
+			<ul>
+				<li><a href="">导航链接一</a></li>
+				<li><a href="">导航链接二</a></li>
+				<li><a href="">导航链接三</a></li>
+				<li><a href="">导航链接四</a></li>
+			</ul>
+		</nav>
+	</div>	
+	<article class="content">
+		<h2>文章一级标题</h2>
+		<h3>文章二级标题</h3>
+		<span>文章作者 文章发表时间</span>
+		<p class="indent">
+			这是一个很长很长的段落，这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落，换行了
+		</p>
+		<p>这是一个很长很长的段落，这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长</p>
+		<p>
+			这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落<a href="http://ife.baidu.com">这里有个链接到http://ife.baidu.com</a>到这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落
+		</p>
+		<img src="img/n1.jpg" >
+		<p class="indent">
+			这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落<a href="http://ife.baidu.com">这里有个链接到http://ife.baidu.com</a>到这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落
+		</p>
+	</article>
+	<article class="content">
+		<h2>另一篇文章一级标题</h2>
+		<h3>文章二级标题</h3>
+		<span>文章作者 文章发表时间</span>
+		<p class="indent">
+			这是一个很长很长的段落，这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落，换行了
+		</p>
+		<p>
+			这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落<a href="http://ife.baidu.com">这里有个链接到http://ife.baidu.com</a>到这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落
+		</p>
+		<img src="img/n1.jpg" alt="">
+		<ul>
+			<li>项目列表一</li>
+			<li>项目列表二</li>
+			<li>项目列表三</li>
+		</ul>
+	</article>
+	<div id='pic' class="content">
+		<h2>图片</h2>
+		<figure >
+			<figcaption>好看的图片</figcaption>
+			<img src="img/n1.jpg" >
+		</figure>
+		<figure>
+			<figcaption>好看的图片</figcaption>
+			<img src="img/n1.jpg" >
+		</figure>
+		<figure>
+			<figcaption>好看的图片</figcaption>
+			<img src="img/n1.jpg" >
+		</figure>
+		<figure>
+			<figcaption>好看的图片</figcaption>
+			<img src="img/n1.jpg" >
+		</figure>
+	</div>
+	<div class="content last">	
+		<h2>最后一篇文章一级标题</h2>
+		<h3>文章二级标题</h3>
+		<span>文章作者 文章发表时间</span>
+		<ol>
+			<li>排名1</li>
+			<li>排名2</li>
+			<li>排名3</li>
+		</ol>
+		<span>下面是一个表格，给表格加了一个border='1'好让你看出是一个表格</span>
+		<table border="1">
+			<thead>
+				<th>表头</th>
+				<th>表头</th>
+				<th class="table_last">表头</th>	
+			</thead>
+			<tbody>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td class="table_last"><a href="#">操作</a></td>	
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td class="table_last"><a href="#">操作</a></td>	
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td class="table_last"><a href="#">操作</a></td>	
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td class="table_last"><a href="#">操作</a></td>	
+				</tr>
+				<tr class="table_bottom">
+					<td>总计</td>
+					<td colspan="2">1000</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<aside class="content">
+		<h2><img src="img/bg1.jpg" style="vertical-align: middle;">这里以后是一个侧栏，这是侧栏的标题</h2>
+		<div class="content_bottom" style="margin-left: 270px">
+			<div id='email'>
+				<div class="block" style="padding-top: 8px;" >请输入邮件地址　</div><input type="text" value="这是一个文本输入框" ><br/>
+				<div class="block">　</div><p style="color:#9c9aa7">邮箱地址请按要求输入</p>
+				
+				<div class="block" style="padding-top: 8px;">请输入密码　</div> <input type="password" value="这是一个文本输入框"><br>
+				<div class="block" style="padding-top: 8px;">请重复输入密码　</div><input type="password" value="这是一个文本输入框"><br/>
+				<div class="block">　</div><p style="color:#9c9aa7">密码请为6-16英文或数字</p>
+			</div>
+			<div class="block">性别　</div>
+			<div>
+				<input type="radio" name='sex' value="男" checked class="sex"/>男</span> 
+				<input type="radio" name='sex'  value="女" class="sex"/><span >女</span> 
+				<br/>
+			</div>
+			
+			<div class="block">城市　</div>	
+			<select >
+				<option value="杭州">杭州</option>
+				<option value="上海">上海</option>
+				<option value="西藏">西藏</option>
+			</select>
+			
+			<br/>
+			<div class="block">爱好　</div>
+			<input class="hobby" type="checkbox" style="" >运动
+			<input class="hobby" type="checkbox"  >艺术
+			<input class="hobby" type="checkbox" >科学
+			<br/>
+			<div class="block">个人描述　</div>
+			<textarea  cols="80" rows="5" style="vertical-align: text-top;">输入你的个人描述</textarea>
+			<br/>
+		</div>
+		<div class="submit">
+			<input type="submit" value="确认提交" >
+		</div>
+		
+	</aside>
+	<div class="copy">	<span>版权所有&copy</span></div>
+</body>
+</html>
