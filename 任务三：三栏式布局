@@ -12,7 +12,7 @@
 		.left span{display: inline-block;vertical-align:top;margin-top:-4px;font-size:12px;}
 		.right{padding: 20px;width:78px;float: right;border: 1px solid #999;background:#fff;}
 		.right img{width:80px;height: 80px;margin-bottom:20px;height: auto; }
-		.middle{padding: 20px;width: auto;border: 1px solid #999;margin:0 180px 0 220px;background: #fff;height: auto;}
+		.middle{padding: 20px;width: auto;border: 1px solid #999;margin:0 140px 0 220px;background: #fff;height: auto;}
 	
 	</style>
 </head>
