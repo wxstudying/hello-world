@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{margin:0;padding: 0;}
+		body{margin:0;padding:20px;width:840px;margin:0 auto;border: 1px solid #999;height:800px;}
+		.main{border: 1px solid #999;padding:20px;background:#eee;overflow:auto;}
+		.left{padding: 20px;width:158px;border: 1px solid #999;background:#ffffff;float: left;height: auto;}
+		.left img{width:80px;height:80px;margin-right:20px;}
+		.left span{display: inline-block;vertical-align:top;margin-top:-4px;font-size:12px;}
+		.right{padding: 20px;width:78px;float: right;border: 1px solid #999;background:#fff;}
+		.right img{width:80px;height: 80px;margin-bottom:20px;height: auto; }
+		.middle{padding: 20px;width: auto;border: 1px solid #999;margin:0 180px 0 220px;background: #fff;height: auto;}
+	
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="left">
+			<!-- <div class="logo">团队logo</div>
+			 -->
+			<img src="img/logo2.jpg" >
+			<span>团队名称</span>
+		</div>
+		<div class="right">
+			<img src="img/logo2.jpg" >
+			<img src="img/logo2.jpg" >
+			<img src="img/logo2.jpg" >
+			<img src="img/logo2.jpg" >
+		</div>
+		<div class="middle">
+			2017新变化
+			今年我们将继续保持实践加交流的学习模式。在之前的基础上，今年引入了分学院的概念，我们非常荣幸地邀今年我们将继续保持实践加交流的学习模式。在之前的基础上，今年引入了分学院的概念，我们非常荣幸地邀今年我们将继续保持实践加交流的学习模式。在之前的基础上，今年引入了分学院的概念，我们非常荣幸地邀今年我们将继续保持实践加交流的学习模式。在之前的基础上，今年引入了分学院的概念，我们非常荣幸地邀今年我们将继续保持实践加交流的学习模式。在之前的基础上，今年引入了分学院的概念，我们非常荣幸地邀今年我们将继续保持实践加交流的学习模式。在之前的基础上，今年引入了分学院的概念，我们非常荣幸地邀
+		</div>
+		
+	</div>
+</body>
+</html>
